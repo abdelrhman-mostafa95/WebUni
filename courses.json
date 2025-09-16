@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Bootcamp",
+    "category": "Web Development",
+    "image": "https://picsum.photos/200/300?random=1",
+    "description": "A complete web development journey starting from HTML, CSS, and JavaScript up to React and Node.js. Perfect for beginners who want to build full-stack projects.",
+    "topics": [
+      "HTML & CSS Basics",
+      "JavaScript Essentials",
+      "React Framework",
+      "Node.js & Express",
+      "Databases with MongoDB"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development with Flutter",
+    "category": "Mobile Development",
+    "image": "https://picsum.photos/200/300?random=2",
+    "description": "Learn to create beautiful and fast cross-platform apps with Flutter and Dart. Build real-world applications and publish them to app stores.",
+    "topics": [
+      "Dart Programming Language",
+      "Flutter Widgets",
+      "State Management",
+      "Firebase Integration",
+      "Publishing Apps"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Data Science & Machine Learning",
+    "category": "Data Science",
+    "image": "https://picsum.photos/200/300?random=3",
+    "description": "Understand the fundamentals of data science, Python programming, and machine learning techniques. Work with datasets and build intelligent models.",
+    "topics": [
+      "Python for Data Science",
+      "Data Cleaning & Analysis",
+      "Machine Learning Algorithms",
+      "Deep Learning Basics",
+      "Projects with Real Datasets"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Fundamentals",
+    "category": "Security",
+    "image": "https://picsum.photos/200/300?random=4",
+    "description": "Gain practical knowledge of cybersecurity, ethical hacking, and protecting systems from attacks.",
+    "topics": [
+      "Network Security Basics",
+      "Encryption & Cryptography",
+      "Ethical Hacking Techniques",
+      "Web Application Security",
+      "Cyber Threat Analysis"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing with AWS",
+    "category": "Cloud",
+    "image": "https://picsum.photos/200/300?random=5",
+    "description": "Learn the essentials of cloud computing and deploy applications using Amazon Web Services.",
+    "topics": [
+      "Introduction to Cloud",
+      "AWS EC2 & S3",
+      "Serverless Architecture",
+      "Cloud Databases",
+      "Security in AWS"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Python Programming Masterclass",
+    "category": "Programming",
+    "image": "https://picsum.photos/200/300?random=6",
+    "description": "Master Python programming for automation, web development, and data science projects.",
+    "topics": [
+      "Python Syntax & Basics",
+      "Object-Oriented Programming",
+      "Working with Files",
+      "APIs & Web Scraping",
+      "Python Projects"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Artificial Intelligence Basics",
+    "category": "AI",
+    "image": "https://picsum.photos/200/300?random=7",
+    "description": "Get started with artificial intelligence concepts and build simple AI models.",
+    "topics": [
+      "Introduction to AI",
+      "Neural Networks",
+      "Natural Language Processing",
+      "Computer Vision",
+      "AI in Real Life"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "UI/UX Design Principles",
+    "category": "Design",
+    "image": "https://picsum.photos/200/300?random=8",
+    "description": "Learn how to design user-friendly and visually appealing digital interfaces.",
+    "topics": [
+      "Design Thinking",
+      "Wireframing & Prototyping",
+      "User Research",
+      "Color & Typography",
+      "Tools like Figma & Adobe XD"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "DevOps & CI/CD",
+    "category": "DevOps",
+    "image": "https://picsum.photos/200/300?random=9",
+    "description": "Understand DevOps culture and implement CI/CD pipelines for faster deployments.",
+    "topics": [
+      "What is DevOps?",
+      "Docker & Containers",
+      "CI/CD with Jenkins",
+      "Kubernetes Basics",
+      "Monitoring & Logging"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Java Programming for Beginners",
+    "category": "Programming",
+    "image": "https://picsum.photos/200/300?random=10",
+    "description": "Learn Java from scratch and understand OOP concepts to build desktop and mobile applications.",
+    "topics": [
+      "Java Syntax",
+      "OOP in Java",
+      "Collections & Generics",
+      "JavaFX Basics",
+      "Building Mini Projects"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "C++ Programming & Algorithms",
+    "category": "Programming",
+    "image": "https://picsum.photos/200/300?random=11",
+    "description": "Master C++ and strengthen your algorithms and data structure skills.",
+    "topics": [
+      "C++ Basics",
+      "Pointers & Memory",
+      "Data Structures",
+      "Sorting & Searching",
+      "Algorithmic Problems"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Game Development with Unity",
+    "category": "Multimedia",
+    "image": "https://picsum.photos/200/300?random=12",
+    "description": "Create 2D and 3D games using Unity and C#. Learn game physics, animation, and publishing.",
+    "topics": [
+      "Unity Basics",
+      "C# for Unity",
+      "Game Physics",
+      "Animations & UI",
+      "Publishing Games"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Blockchain & Cryptocurrency",
+    "category": "Blockchain",
+    "image": "https://picsum.photos/200/300?random=13",
+    "description": "Understand blockchain technology, smart contracts, and how cryptocurrencies work.",
+    "topics": [
+      "Blockchain Basics",
+      "Smart Contracts",
+      "Ethereum & Solidity",
+      "DeFi Applications",
+      "Crypto Wallets & Security"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Digital Marketing Essentials",
+    "category": "Marketing",
+    "image": "https://picsum.photos/200/300?random=14",
+    "description": "Learn SEO, social media, and content marketing strategies to grow online presence.",
+    "topics": [
+      "SEO Fundamentals",
+      "Content Marketing",
+      "Social Media Strategies",
+      "Email Marketing",
+      "Google Ads Basics"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Video Editing & Motion Graphics",
+    "category": "Multimedia",
+    "image": "https://picsum.photos/200/300?random=15",
+    "description": "Learn professional video editing and motion graphics with Adobe Premiere Pro and After Effects.",
+    "topics": [
+      "Video Editing Basics",
+      "Transitions & Effects",
+      "Color Grading",
+      "Motion Graphics",
+      "Exporting & Publishing"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Excel & Data Analysis",
+    "category": "Data Science",
+    "image": "https://picsum.photos/200/300?random=16",
+    "description": "Master Microsoft Excel and learn data analysis techniques for business.",
+    "topics": [
+      "Excel Basics",
+      "Formulas & Functions",
+      "Data Visualization",
+      "Pivot Tables",
+      "Business Reports"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Project Management with Agile",
+    "category": "Business",
+    "image": "https://picsum.photos/200/300?random=17",
+    "description": "Learn Agile and Scrum frameworks for effective project management.",
+    "topics": [
+      "Introduction to Agile",
+      "Scrum Roles",
+      "Sprint Planning",
+      "Kanban Boards",
+      "Agile Tools"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Artificial Neural Networks Advanced",
+    "category": "AI",
+    "image": "https://picsum.photos/200/300?random=18",
+    "description": "Dive deep into neural networks, backpropagation, and advanced AI architectures.",
+    "topics": [
+      "Perceptrons",
+      "Deep Neural Networks",
+      "CNN & RNN",
+      "Optimization Techniques",
+      "AI Projects"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Photography Masterclass",
+    "category": "Multimedia",
+    "image": "https://picsum.photos/200/300?random=19",
+    "description": "Learn the art of photography including lighting, editing, and storytelling.",
+    "topics": [
+      "Camera Basics",
+      "Lighting Techniques",
+      "Photo Composition",
+      "Editing with Lightroom",
+      "Storytelling through Photos"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Entrepreneurship & Startup Fundamentals",
+    "category": "Business",
+    "image": "https://picsum.photos/200/300?random=20",
+    "description": "Learn how to start, fund, and grow your startup with real-world strategies.",
+    "topics": [
+      "Business Idea Validation",
+      "Building MVP",
+      "Startup Funding",
+      "Marketing for Startups",
+      "Scaling & Growth"
+    ]
+  }
+]
