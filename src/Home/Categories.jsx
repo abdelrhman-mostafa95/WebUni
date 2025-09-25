@@ -32,7 +32,6 @@ function Categories({ filters = {} }) {
     const grouped = {};
 
     courses.forEach((course) => {
-      // فلترة بالكورس
       if (
         filters.course &&
         !course.title.toLowerCase().includes(filters.course.toLowerCase())
@@ -40,7 +39,6 @@ function Categories({ filters = {} }) {
         return;
       }
 
-      // فلترة بالكاتيجوري
       if (
         filters.category &&
         !course.category.toLowerCase().includes(filters.category.toLowerCase())
@@ -85,7 +83,7 @@ function Categories({ filters = {} }) {
             : "Explore our wide range of online courses across different fields."}
         </p>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-6 lg:px-1">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 px-1 sm:px-6 lg:px-1">
           {categories.slice(0, 6).map((cat, index) => (
             <div
               key={index}
@@ -100,15 +98,15 @@ function Categories({ filters = {} }) {
                 className="w-full h-50 object-cover"
               />
 
-              <div className="p-6 text-left">
+              <div className="p-2 text-left">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2 group-hover:text-white">
                   {cat.category}
                 </h3>
                 <p className="text-gray-700 font-medium group-hover:text-white">
-                  {cat.title} Courses
+                  {cat.title} Course
                 </p>
                 <p className="text-red-700 font-medium group-hover:text-white">
-                  {cat.count} Courses
+                  {cat.count} Course
                 </p>
               </div>
             </div>

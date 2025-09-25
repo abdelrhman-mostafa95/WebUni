@@ -8,9 +8,9 @@ function Hero() {
           Get The Best Free Online Courses
         </h1>
         <p className="max-w-2xl text-gray-300 mb-8 text-sm md:text-base lg:text-lg">
-          Discover a wide variety of carefully selected courses that help you
-          build your skills, boost your career, and learn at your own pace — all
-          for free!
+          Learn for free with our curated collection of YouTube courses —
+          explore top tutorials, gain new skills, and grow your career without
+          any cost.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-2xl">
