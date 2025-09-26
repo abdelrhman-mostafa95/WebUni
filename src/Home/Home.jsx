@@ -5,7 +5,7 @@ import SearchCourses from "./Search";
 import FeaturedCourses from "./FeaturedCourses";
 import HowitWorks from "./Howitworks";
 import JoinUs from "./Jouinus";
-import FooterSection from "../Footer/Footer";
+
 
 function Home() {
   const [filters, setFilters] = useState({ course: "", category: "" });
@@ -21,7 +21,7 @@ function Home() {
       <FeaturedCourses />
       <HowitWorks />
       <JoinUs />
-      <FooterSection />
+      
     </>
   );
 }

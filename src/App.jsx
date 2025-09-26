@@ -5,6 +5,7 @@ import Aboutus from "./Aboutus/Aboutus";
 import Courses from "./Courses/Courses";
 import Contact from "./Contact/Contact";
 import Navbar from "./Navbar/Navbar";
+import FooterSection from "./Footer/Footer";
 // import ProductDetails from "./ProductDetails/ProductDetails"; // لو عايز تزود دا بعدين
 
 function App() {
@@ -13,11 +14,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/about" element={<Aboutus />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="/productdetails/:id" element={<ProductDetails />} /> */}
       </Routes>
+      <FooterSection />
     </BrowserRouter>
   );
 }
