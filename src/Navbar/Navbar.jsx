@@ -43,14 +43,7 @@ function Navbar() {
             Courses
           </NavLink>
 
-          <NavLink
-            to="/news"
-            className={({ isActive }) =>
-              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
-            }
-          >
-            News
-          </NavLink>
+         
 
           <NavLink
             to="/contact"

@@ -14,7 +14,8 @@
       "Databases with MongoDB"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLVht7UBOfJb8p7ehKW_yDfCrzAJVRHrE7"
   },
   {
     "id": 2,
@@ -31,13 +32,14 @@
       "Publishing Apps"
     ],
     "rating": 4.9,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkVtoeNIGqILtRAgd3h2CNpT"
   },
   {
     "id": 3,
     "title": "Data Science & Machine Learning",
     "category": "Data Science",
-    "image": "4.jpg",
+    "image": "/4.jpg",
     "description": "Understand the fundamentals of data science, Python programming, and machine learning techniques. Work with datasets and build intelligent models.",
     "longDescription": "This Data Science & Machine Learning course introduces you to one of the fastest-growing fields in technology. You will start by learning Python programming tailored for data manipulation and analysis. Then, you will work on cleaning and preparing real-world datasets to make them usable. You will dive into statistical techniques and machine learning algorithms such as regression, classification, and clustering. As you progress, you will explore deep learning basics, including neural networks and how they are applied in real-world scenarios like image and speech recognition. The course emphasizes practical projects that help you apply your knowledge to actual problems. By completing this course, you will have the skills to pursue careers as a Data Analyst, Machine Learning Engineer, or Data Scientist. You will also build a strong portfolio that demonstrates your ability to solve real business and scientific problems using data.",
     "topics": [
@@ -48,13 +50,14 @@
       "Projects with Real Datasets"
     ],
     "rating": 4.7,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUIW49-3u2oj7XwJEZoWKxBF"
   },
   {
     "id": 4,
     "title": "Cybersecurity Fundamentals",
     "category": "Security",
-    "image": "5.jpg",
+    "image": "/5.jpg",
     "description": "Gain practical knowledge of cybersecurity, ethical hacking, and protecting systems from attacks.",
     "longDescription": "The Cybersecurity Fundamentals course is designed to give you a strong understanding of how to protect computer systems and networks from modern threats. You will begin with the basics of network security, understanding protocols and vulnerabilities. Then, you will explore encryption and cryptography to safeguard sensitive information. The course introduces ethical hacking techniques, helping you understand how attackers operate so you can defend against them. You will also learn about web application security and common attacks such as SQL injection and XSS. Finally, you will study how to analyze and respond to cyber threats in real-world situations. By the end, you will have the confidence to apply for entry-level positions such as Security Analyst, Ethical Hacker, or IT Security Specialist. This course is ideal for anyone who wants to build a career in cybersecurity or strengthen their understanding of digital safety.",
     "topics": [
@@ -65,13 +68,14 @@
       "Cyber Threat Analysis"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUJfPOj5nRounXvf3n17PCft"
   },
   {
     "id": 5,
     "title": "Cloud Computing with AWS",
     "category": "Cloud",
-    "image": "6.jpg",
+    "image": "/6.jpg",
     "description": "Learn the essentials of cloud computing and deploy applications using Amazon Web Services.",
     "longDescription": "This Cloud Computing with AWS course will introduce you to the world of cloud technologies and how they are reshaping modern IT. You will start with the fundamentals of cloud computing and why it is so important today. Then, you will dive into AWS services such as EC2 for virtual servers and S3 for object storage. You will learn about serverless architectures and how to build scalable applications using AWS Lambda. Additionally, the course covers database solutions and how to secure your applications in the cloud. By completing this course, you will be able to confidently deploy applications on AWS and understand how businesses use cloud infrastructure. This knowledge prepares you for roles like Cloud Engineer, AWS Solutions Architect, or DevOps Engineer. You will gain hands-on experience that can help you build your career in cloud computing.",
     "topics": [
@@ -82,13 +86,14 @@
       "Security in AWS"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUULlNtIFhEQHo8gacvme35rz"
   },
   {
     "id": 6,
     "title": "Python Programming Masterclass",
     "category": "Programming",
-    "image": "7.jpg",
+    "image": "/7.jpg",
     "description": "Master Python programming for automation, web development, and data science projects.",
     "longDescription": "This Python Programming Masterclass takes you from the very basics of Python to advanced programming techniques. You will begin by learning Python syntax and understanding how to write clean, efficient code. Then, you will explore object-oriented programming to build more structured applications. The course also covers working with files, handling errors, and creating Python scripts for automation. As you move forward, you will learn about APIs, web scraping, and using Python for real-world tasks. The final sections focus on building projects that showcase your skills, including web apps and data analysis scripts. By the end of this course, you will have the confidence to take on programming challenges and pursue roles like Python Developer, Data Analyst, or Automation Engineer. Python is one of the most versatile languages, and this course will set you on a solid career path.",
     "topics": [
@@ -99,13 +104,14 @@
       "Python Projects"
     ],
     "rating": 4.9,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f"
   },
   {
     "id": 7,
     "title": "Artificial Intelligence Basics",
     "category": "AI",
-    "image": "8.jpg",
+    "image": "/8.jpg",
     "description": "Get started with artificial intelligence concepts and build simple AI models.",
     "longDescription": "Artificial Intelligence Basics is the perfect starting point for anyone curious about AI and its real-world applications. You will begin with an introduction to what AI is and how it impacts industries today. Next, you will explore neural networks and understand how machines can learn patterns from data. The course also covers natural language processing, allowing machines to understand and generate human language. You will then learn the fundamentals of computer vision, giving machines the ability to recognize and process images. Finally, you will see practical examples of AI being applied in everyday life, from recommendation systems to chatbots. By completing this course, you will have a strong foundation to build upon and pursue further learning. You can prepare for roles such as AI Research Assistant, Junior Machine Learning Engineer, or AI Enthusiast ready to contribute to projects.",
     "topics": [
@@ -116,13 +122,14 @@
       "AI in Real Life"
     ],
     "rating": 4.6,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUULyr_ftxpHB6DumOq1Zz2hq"
   },
   {
     "id": 8,
     "title": "UI/UX Design Principles",
     "category": "Design",
-    "image": "9.jpg",
+    "image": "/9.jpg",
     "description": "Learn how to design user-friendly and visually appealing digital interfaces.",
     "longDescription": "This UI/UX Design Principles course is focused on teaching you how to create designs that are both functional and beautiful. You will begin by exploring design thinking and understanding how to solve user problems through design. Then, you will practice wireframing and prototyping to visualize ideas before development. The course will guide you through user research techniques that help you understand your target audience. You will also study the impact of colors, typography, and layout in creating engaging digital products. Finally, you will learn to use industry-standard tools like Figma and Adobe XD to bring your ideas to life. By the end of the course, you will be ready to take on roles like UI/UX Designer, Product Designer, or Interaction Designer. You will also have a portfolio of projects to showcase your design thinking and creativity to potential employers or clients.",
     "topics": [
@@ -133,13 +140,14 @@
       "Tools like Figma & Adobe XD"
     ],
     "rating": 4.7,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLpKyNBYcYNJec4bUTVZUqxBQF5ezd96RT"
   },
   {
     "id": 9,
     "title": "DevOps & CI/CD",
     "category": "DevOps",
-    "image": "10.jpg",
+    "image": "/10.jpg",
     "description": "Understand DevOps culture and implement CI/CD pipelines for faster deployments.",
     "longDescription": "This DevOps & CI/CD course will introduce you to modern software development practices that bridge the gap between development and operations. You will start by learning what DevOps really means and why it matters for teams. Then, you will dive into containerization using Docker and learn how it simplifies application deployment. The course covers building CI/CD pipelines using Jenkins, ensuring continuous integration and delivery. You will also explore Kubernetes and its role in managing containerized applications at scale. Finally, you will learn about monitoring and logging, ensuring that your applications remain reliable in production. By completing this course, you will have the skills to pursue careers as a DevOps Engineer, Site Reliability Engineer, or Cloud Engineer. You will also be able to help organizations deliver software faster and more reliably.",
     "topics": [
@@ -150,13 +158,14 @@
       "Monitoring & Logging"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2"
   },
   {
     "id": 10,
     "title": "Java Programming for Beginners",
     "category": "Programming",
-    "image": "11.jpg",
+    "image": "/11.jpg",
     "description": "Learn Java from scratch and understand OOP concepts to build desktop and mobile applications.",
     "longDescription": "This Java Programming for Beginners course is tailored to absolute beginners who want to master Java. You will start with basic syntax, variables, and control structures. Then, you will dive into object-oriented programming concepts like classes, inheritance, and polymorphism. The course also covers data structures, generics, and how to build desktop applications with JavaFX. You will practice with mini-projects that strengthen your coding skills. By the end, you will have a clear understanding of how Java powers everything from Android apps to enterprise systems. This course prepares you for entry-level roles such as Java Developer, Software Engineer, or Backend Developer. Java remains one of the most in-demand programming languages, making this course a solid investment in your career.",
     "topics": [
@@ -167,13 +176,14 @@
       "Building Mini Projects"
     ],
     "rating": 4.7,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PL1DUmTEdeA6K7rdxKiWJq6JIxTvHalY8f"
   },
   {
     "id": 11,
     "title": "C++ Programming & Algorithms",
     "category": "Programming",
-    "image": "12.jpg",
+    "image": "/12.jpg",
     "description": "Master C++ and strengthen your algorithms and data structure skills.",
     "longDescription": "The C++ Programming & Algorithms course is designed for learners who want to deepen their understanding of programming and problem-solving. You will start with the basics of C++ syntax, variables, and control structures. Then, you will explore pointers and memory management, giving you a deeper understanding of how computers work. The course also covers data structures like linked lists, stacks, and queues, as well as sorting and searching algorithms. You will practice solving algorithmic problems that are common in technical interviews. By the end of this course, you will be ready to take on challenges in software development, competitive programming, or systems programming. Possible roles include C++ Developer, Game Developer, or Software Engineer specializing in performance-critical applications.",
     "topics": [
@@ -184,13 +194,14 @@
       "Algorithmic Problems"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
   },
   {
     "id": 12,
     "title": "Game Development with Unity",
     "category": "Multimedia",
-    "image": "13.jpg",
+    "image": "/13.jpg",
     "description": "Create 2D and 3D games using Unity and C#. Learn game physics, animation, and publishing.",
     "longDescription": "This Game Development with Unity course will take you through the exciting process of creating your own games. You will begin with Unity basics and understanding the interface. Then, you will learn C# programming for building game logic. The course covers physics, animations, and how to design immersive user interfaces. You will also explore how to create both 2D and 3D games and publish them across different platforms. By working on real projects, you will gain hands-on experience that you can showcase in your portfolio. By the end, you will be able to pursue careers as a Game Developer, Unity Developer, or Interactive Media Designer. Game development is a field full of creativity, and this course will give you the tools to bring your ideas to life.",
     "topics": [
@@ -201,13 +212,14 @@
       "Publishing Games"
     ],
     "rating": 4.9,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLI5KGtDrj4HVInyXdx5N2oYUAb9U7rJ4L"
   },
   {
     "id": 13,
     "title": "Blockchain & Cryptocurrency",
     "category": "Blockchain",
-    "image": "14.jpg",
+    "image": "/14.jpg",
     "description": "Understand blockchain technology, smart contracts, and how cryptocurrencies work.",
     "longDescription": "Blockchain & Cryptocurrency is an essential course for anyone curious about decentralized technologies. You will begin by understanding the basics of blockchain, how blocks are created, and why they are secure. Then, you will explore smart contracts and how they are used in applications. The course dives into Ethereum, Solidity, and how decentralized finance (DeFi) works. You will also learn how to set up crypto wallets and keep them secure. By the end of this course, you will have a clear understanding of how blockchain is transforming industries like finance, supply chain, and digital identity. Career opportunities include Blockchain Developer, Crypto Analyst, or Smart Contract Engineer. This course equips you with the foundational knowledge to join one of the most disruptive fields in technology.",
     "topics": [
@@ -218,13 +230,14 @@
       "Crypto Wallets & Security"
     ],
     "rating": 4.6,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLoROMvodv4rN_bvJCjfM33sOLTGj8gxrF"
   },
   {
     "id": 14,
     "title": "Digital Marketing Essentials",
     "category": "Marketing",
-    "image": "15.png",
+    "image": "/15.png",
     "description": "Learn SEO, social media, and content marketing strategies to grow online presence.",
     "longDescription": "The Digital Marketing Essentials course introduces you to the core strategies businesses use to grow online. You will start by learning SEO fundamentals and how to optimize websites for search engines. Then, you will dive into content marketing and how to create valuable content that attracts customers. The course covers social media strategies across major platforms, email marketing techniques, and the basics of paid advertising using Google Ads. By completing this course, you will have the skills to build and manage digital marketing campaigns from scratch. You can pursue roles like Digital Marketing Specialist, SEO Analyst, or Social Media Manager. This course is perfect for entrepreneurs, freelancers, and anyone looking to build an online presence.",
     "topics": [
@@ -235,13 +248,14 @@
       "Google Ads Basics"
     ],
     "rating": 4.7,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUULa5aOQmO_al2VVmhC-eqeI"
   },
   {
     "id": 15,
     "title": "Video Editing & Motion Graphics",
     "category": "Multimedia",
-    "image": "16.png",
+    "image": "/16.png",
     "description": "Learn professional video editing and motion graphics with Adobe Premiere Pro and After Effects.",
     "longDescription": "This Video Editing & Motion Graphics course teaches you how to create compelling video content. You will start with the basics of video editing using Adobe Premiere Pro, learning about timelines, transitions, and effects. Then, you will move to motion graphics with After Effects, creating animations and visual effects. The course also covers color grading, sound design, and exporting your videos for different platforms. By working on real projects, you will develop a portfolio of videos that showcase your creativity. By the end of the course, you will be ready to work as a Video Editor, Motion Graphics Designer, or Content Creator. With the growing demand for video content, these skills will open up opportunities in marketing, media, and freelance work.",
     "topics": [
@@ -252,13 +266,14 @@
       "Exporting & Publishing"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLYfCBK8IplO77FDDLnS06qEMoVLD7Qyib"
   },
   {
     "id": 16,
     "title": "Ethical Hacking & Penetration Testing",
     "category": "Security",
-    "image": "17.png",
+    "image": "/17.png",
     "description": "Master penetration testing techniques and secure networks by thinking like a hacker.",
     "longDescription": "The Ethical Hacking & Penetration Testing course will teach you how to identify vulnerabilities and secure systems from attacks. You will start with the basics of ethical hacking, including reconnaissance and scanning. Then, you will learn exploitation techniques used by attackers and how to defend against them. The course covers web application security, wireless network testing, and social engineering attacks. You will also explore penetration testing methodologies and tools used by professionals. By completing this course, you will be able to pursue careers as an Ethical Hacker, Penetration Tester, or Cybersecurity Specialist. This hands-on course provides real-world scenarios to practice your skills and prepare you for professional certifications.",
     "topics": [
@@ -269,13 +284,14 @@
       "Penetration Testing Tools"
     ],
     "rating": 4.9,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu"
   },
   {
     "id": 17,
     "title": "SQL & Database Management",
     "category": "Databases",
-    "image": "18.png",
+    "image": "/18.png",
     "description": "Learn SQL queries, database design, and management of relational databases.",
     "longDescription": "The SQL & Database Management course is focused on teaching you how to work with databases effectively. You will start by learning the basics of relational databases and how to design efficient schemas. Then, you will dive into SQL queries, including SELECT, JOIN, and GROUP BY. The course covers advanced concepts like stored procedures, indexing, and transaction management. You will also explore database administration tasks, such as backups and security. By the end of this course, you will be able to design, query, and manage databases confidently. You can pursue careers as a Database Administrator, SQL Developer, or Backend Engineer. Databases are at the core of almost every application, making these skills highly valuable in the tech industry.",
     "topics": [
@@ -286,13 +302,14 @@
       "Database Security"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qZY_2eAtUzEUulNjTJREhQe"
   },
   {
     "id": 18,
     "title": "Artificial Intelligence with Python",
     "category": "AI",
-    "image": "5.jpg",
+    "image": "/5.jpg",
     "description": "Implement AI techniques using Python and explore deep learning with TensorFlow and Keras.",
     "longDescription": "This Artificial Intelligence with Python course focuses on building intelligent applications using Python. You will begin with the basics of machine learning algorithms and how to implement them in Python. Then, you will explore deep learning frameworks like TensorFlow and Keras. The course covers natural language processing, enabling machines to understand text and speech. You will also dive into computer vision and image recognition. By completing hands-on projects, you will apply AI techniques to real-world problems. This course is ideal for learners who want to build a career as an AI Engineer, Machine Learning Engineer, or Research Scientist. With AI shaping the future, these skills are in high demand across industries.",
     "topics": [
@@ -303,13 +320,14 @@
       "AI Projects"
     ],
     "rating": 4.9,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm"
   },
   {
     "id": 19,
     "title": "Project Management with Agile & Scrum",
     "category": "Management",
-    "image": "20.png",
+    "image": "/20.png",
     "description": "Learn Agile principles and manage projects effectively using Scrum methodology.",
     "longDescription": "The Project Management with Agile & Scrum course is designed to teach you how to manage projects efficiently in fast-paced environments. You will start by understanding the principles of Agile and why it works better than traditional methods. Then, you will dive into Scrum roles, events, and artifacts. The course covers sprint planning, daily standups, and retrospectives. You will also learn how to manage product backlogs and prioritize features. By the end, you will have the skills to lead Agile teams and deliver projects successfully. This course is ideal for aspiring Project Managers, Scrum Masters, or Product Owners. Agile is widely used across industries, making these skills valuable for professionals in IT, marketing, and beyond.",
     "topics": [
@@ -320,13 +338,14 @@
       "Team Collaboration"
     ],
     "rating": 4.7,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUJKZEL96YBV78Dd5gsHSVZ7"
   },
   {
     "id": 20,
     "title": "Excel & Data Analysis",
     "category": "Data Analysis",
-    "image": "21.png",
+    "image": "/21.png",
     "description": "Master Excel functions, pivot tables, and data visualization for business analysis.",
     "longDescription": "This Excel & Data Analysis course helps you become proficient in one of the most important tools for business and data professionals. You will begin with Excel basics and formulas. Then, you will explore advanced functions like VLOOKUP, INDEX, and MATCH. The course covers pivot tables and pivot charts, making it easier to summarize and analyze large datasets. You will also learn about conditional formatting and how to create professional dashboards. By the end, you will be able to perform data analysis tasks with confidence and present insights effectively. This course is perfect for aspiring Data Analysts, Business Analysts, or anyone who wants to improve their Excel skills for work. With Excel still being the most widely used tool in organizations, mastering it will give you a strong advantage in your career.",
     "topics": [
@@ -337,6 +356,7 @@
       "Dashboards"
     ],
     "rating": 4.8,
-    "free": true
+    "free": true,
+    "youtube": "https://www.youtube.com/playlist?list=PLUaB-1hjhk8Hyd5NiPQ9CND82vNodlFF5"
   }
 ]

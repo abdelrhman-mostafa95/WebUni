@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import HeroSection from "./HeroCourse";
-import SearchCourses from "./SearchCourses"; // 👈 استيراد الكومبوننت
+import SearchCourses from "./SearchCourses";
+import { Link } from "react-router-dom";
 
 function CoursesPage() {
   const [courses, setCourses] = useState([]);
@@ -108,12 +109,12 @@ function CoursesPage() {
                   <p className="text-yellow-500 font-semibold">
                     ⭐ {course.rating}
                   </p>
-                  <a
-                    href={`/courses/${course.id}`}
+                  <Link
+                    to={`/courses/${course.id}`}
                     className="text-red-600 font-semibold hover:underline"
                   >
                     View Details →
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
