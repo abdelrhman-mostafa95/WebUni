@@ -8,8 +8,9 @@ function Aboutus() {
   return (
     <>
       <HeroSection />
-      <Content />
       <ValuesSection />
+      <Content />
+
       <JoinUs />
     </>
   );

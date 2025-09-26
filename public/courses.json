@@ -292,7 +292,7 @@
     "id": 18,
     "title": "Artificial Intelligence with Python",
     "category": "AI",
-    "image": "19.png",
+    "image": "5.jpg",
     "description": "Implement AI techniques using Python and explore deep learning with TensorFlow and Keras.",
     "longDescription": "This Artificial Intelligence with Python course focuses on building intelligent applications using Python. You will begin with the basics of machine learning algorithms and how to implement them in Python. Then, you will explore deep learning frameworks like TensorFlow and Keras. The course covers natural language processing, enabling machines to understand text and speech. You will also dive into computer vision and image recognition. By completing hands-on projects, you will apply AI techniques to real-world problems. This course is ideal for learners who want to build a career as an AI Engineer, Machine Learning Engineer, or Research Scientist. With AI shaping the future, these skills are in high demand across industries.",
     "topics": [
