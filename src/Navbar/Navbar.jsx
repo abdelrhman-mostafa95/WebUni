@@ -43,8 +43,6 @@ function Navbar() {
             Courses
           </NavLink>
 
-         
-
           <NavLink
             to="/contact"
             className={({ isActive }) =>
@@ -68,21 +66,41 @@ function Navbar() {
 
       {open && (
         <div className="md:hidden bg-black bg-opacity-80 text-white px-6 py-4 space-y-4">
-          <a href="#" className="block hover:text-red-700">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+            }
+          >
             Home
-          </a>
-          <a href="#" className="block hover:text-red-700">
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+            }
+          >
             About us
-          </a>
-          <a href="#" className="block hover:text-red-700">
+          </NavLink>
+
+          <NavLink
+            to="/courses"
+            className={({ isActive }) =>
+              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+            }
+          >
             Courses
-          </a>
-          <a href="#" className="block hover:text-red-700">
-            News
-          </a>
-          <a href="#" className="block hover:text-red-700">
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+            }
+          >
             Contact
-          </a>
+          </NavLink>
           <button className="w-full bg-red-700 hover:bg-red-700 text-white px-5 py-2 rounded">
             Login
           </button>
