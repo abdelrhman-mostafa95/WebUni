@@ -69,7 +69,8 @@ function Navbar() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+              (isActive ? "text-red-700 font-semibold" : "hover:text-red-700") +
+              " block"
             }
           >
             Home
@@ -78,7 +79,8 @@ function Navbar() {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+              (isActive ? "text-red-700 font-semibold" : "hover:text-red-700") +
+              " block"
             }
           >
             About us
@@ -87,7 +89,8 @@ function Navbar() {
           <NavLink
             to="/courses"
             className={({ isActive }) =>
-              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+              (isActive ? "text-red-700 font-semibold" : "hover:text-red-700") +
+              " block"
             }
           >
             Courses
@@ -96,12 +99,14 @@ function Navbar() {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+              (isActive ? "text-red-700 font-semibold" : "hover:text-red-700") +
+              " block"
             }
           >
             Contact
           </NavLink>
-          <button className="w-full bg-red-700 hover:bg-red-700 text-white px-5 py-2 rounded">
+
+          <button className="w-full bg-red-700 hover:bg-red-500 text-white px-5 py-2 rounded">
             Login
           </button>
         </div>
