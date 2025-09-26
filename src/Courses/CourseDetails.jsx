@@ -27,7 +27,7 @@ function CourseDetails() {
   return (
     <>
       <HeroDetails />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="max-w-5xl mx-auto  py-10">
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <img
             src={course.image}
@@ -36,7 +36,7 @@ function CourseDetails() {
           />
 
           <div className="p-8">
-            <span className="inline-block bg-red-100 text-red-700 text-sm font-semibold px-3 py-1 rounded mb-4">
+            <span className="inline-block bg-red-100 text-red-700 text-sm font-semibold px-1 py-1 rounded mb-4">
               {course.category}
             </span>
             <h1 className="text-3xl font-bold text-gray-800 mb-4">
