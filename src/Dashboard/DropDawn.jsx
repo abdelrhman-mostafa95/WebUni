@@ -11,7 +11,6 @@ function DashboardCourses() {
         const storedProgress =
           JSON.parse(localStorage.getItem("progress")) || {};
 
-        
         const updatedCourses = data.map((course) => {
           const saved = storedProgress[course.id];
           return {
@@ -43,7 +42,6 @@ function DashboardCourses() {
     );
     setCourses(updatedCourses);
 
-    
     const progressData = {};
     updatedCourses.forEach((c) => {
       progressData[c.id] = {
@@ -58,12 +56,13 @@ function DashboardCourses() {
     if (filter === "in-progress") return c.status === "in-progress";
     if (filter === "completed") return c.status === "completed";
     if (filter === "not-started") return c.status === "not-started";
-    return true; 
+    return true;
   });
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10">
-      <div className="flex justify-between items-center mb-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+      {/* Header + Filter */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4 sm:gap-0">
         <h1 className="text-3xl font-bold text-red-700">📊 Your Dashboard</h1>
 
         <select
@@ -78,28 +77,34 @@ function DashboardCourses() {
         </select>
       </div>
 
+      {/* No courses */}
       {filteredCourses.length === 0 ? (
         <p className="text-gray-500 text-center">
           No courses found for this filter.
         </p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredCourses.map((c) => (
             <div
               key={c.id}
-              className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition"
+              className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col hover:shadow-xl transition"
             >
-              <h2 className="text-xl font-semibold text-gray-800 mb-2">
+              {/* Title & Category */}
+              <h2 className="text-xl font-semibold text-gray-800 mb-2 break-words">
                 {c.title}
               </h2>
-              <p className="text-gray-500 text-sm mb-4">{c.category}</p>
+              <p className="text-gray-500 text-sm mb-4 break-words">
+                {c.category}
+              </p>
 
-              <div className="w-full bg-gray-200 rounded-full h-3 mb-4">
+              {/* Progress Bar */}
+              <div className="w-full bg-gray-200 rounded-full h-3 mb-4 overflow-hidden">
                 <div
                   className="bg-red-600 h-3 rounded-full transition-all duration-500"
                   style={{ width: `${c.progress}%` }}
                 ></div>
               </div>
+
               <p className="text-sm text-gray-600 mb-4">
                 Progress:{" "}
                 <span className="font-semibold text-red-700">
@@ -107,12 +112,13 @@ function DashboardCourses() {
                 </span>
               </p>
 
-              <div className="flex justify-between">
+              {/* Buttons */}
+              <div className="flex justify-between gap-2">
                 <button
                   onClick={() =>
                     updateProgress(c.id, Math.min(c.progress + 10, 100))
                   }
-                  className="px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-medium hover:bg-red-700 transition"
+                  className="flex-1 px-2 py-2 bg-red-600 text-white rounded-lg text-sm font-medium hover:bg-red-700 transition"
                 >
                   +10%
                 </button>
@@ -120,7 +126,7 @@ function DashboardCourses() {
                   onClick={() =>
                     updateProgress(c.id, Math.max(c.progress - 10, 0))
                   }
-                  className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition"
+                  className="flex-1 px-2 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition"
                 >
                   -10%
                 </button>

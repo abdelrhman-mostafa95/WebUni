@@ -31,8 +31,9 @@ function Profile() {
 
   return (
     <section className="py-12 px-4">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        {/* Form Section */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
             ✨ Edit Profile
           </h2>
@@ -45,30 +46,32 @@ function Profile() {
           </p>
 
           <form onSubmit={handleSave} className="space-y-4">
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="Full Name"
-              className="w-full p-3 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"
-            />
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder="Email Address"
-              className="w-full p-3 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"
-            />
-            <input
-              type="text"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              placeholder="Phone Number"
-              className="w-full p-3 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"
-            />
+            <div className="flex flex-col gap-4 w-full box-border">
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Full Name"
+                className="w-full p-3 sm:p-4 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"
+              />
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Email Address"
+                className="w-full p-3 sm:p-4 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600 box-border overflow-x-auto"
+              />
+              <input
+                type="text"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="Phone Number"
+                className="w-full p-3 sm:p-4 rounded-lg bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"
+              />
+            </div>
             <button
               type="submit"
               className="w-full py-3 bg-red-600 text-white font-semibold rounded-lg shadow hover:bg-red-700 transition"
@@ -82,7 +85,8 @@ function Profile() {
           )}
         </div>
 
-        <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col justify-center">
+        {/* Profile Preview Section */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8 flex flex-col justify-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
             👤 Profile Preview
           </h3>
@@ -90,16 +94,16 @@ function Profile() {
             Here’s how your information looks right now:
           </p>
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="flex flex-col space-y-3 text-gray-700">
             <li className="flex items-center gap-2">
               <span className="text-red-600">👤</span>
               <span className="font-semibold">
                 {formData.name || "Your Name"}
               </span>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-2 break-all">
               <span className="text-red-600">✉️</span>
-              <span className="font-semibold">
+              <span className="font-semibold break-words">
                 {formData.email || "Your Email"}
               </span>
             </li>
