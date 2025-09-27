@@ -1,33 +1,27 @@
 function Hero() {
   return (
-    <div className="relative min-h-screen bg-[url('/bg.jpg')] bg-cover bg-center">
-      <div className="absolute inset-0 bg-black/40"></div>
-
-      <section className="relative z-10 flex flex-col items-center justify-center text-center text-white h-screen px-4 md:px-6">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
+    <div className="relative min-h-screen flex items-center justify-center">
+      <img
+        src="bg.jpg"
+        alt="Background"
+        className="absolute inset-0 w-full h-full object-cover z-10"
+      />
+      <div className="absolute inset-0 bg-black/40 z-15"></div>
+      <section className="relative z-20 text-center text-white px-4 md:px-6 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">
           Get The Best Free Online Courses
         </h1>
-        <p className="max-w-2xl text-gray-300 mb-8 text-sm md:text-base lg:text-lg">
+        <p className="text-gray-200 mb-8 text-base md:text-lg lg:text-xl">
           Learn for free with our curated collection of YouTube courses —
           explore top tutorials, gain new skills, and grow your career without
           any cost.
         </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 w-full max-w-2xl">
-          <input
-            type="text"
-            placeholder="Name"
-            className="flex-1 px-4 py-3 rounded bg-white/20 placeholder-gray-200 text-white focus:outline-none"
-          />
-          <input
-            type="email"
-            placeholder="E-mail"
-            className="flex-1 px-4 py-3 rounded bg-white/20 placeholder-gray-200 text-white focus:outline-none"
-          />
-          <button className="bg-red-700 hover:bg-red-500 text-white px-6 py-3 rounded">
-            Sign Up Now
-          </button>
-        </div>
+        <a
+          href="/courses"
+          className="bg-white text-red-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition"
+        >
+          Browse Courses
+        </a>
       </section>
     </div>
   );
