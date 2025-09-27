@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -54,9 +55,11 @@ function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <button className="bg-red-700 hover:bg-red-500 text-white px-5 py-2 rounded">
-            Login
-          </button>
+          <Link to="/login">
+            <button className="w-full bg-red-700 hover:bg-red-500 text-white px-5 py-2 rounded">
+              Login
+            </button>
+          </Link>
         </div>
 
         <button className="md:hidden text-white" onClick={() => setOpen(!open)}>
@@ -106,9 +109,11 @@ function Navbar() {
             Contact
           </NavLink>
 
-          <button className="w-full bg-red-700 hover:bg-red-500 text-white px-5 py-2 rounded">
-            Login
-          </button>
+          <Link to="/register">
+            <button className="w-full bg-red-700 hover:bg-red-500 text-white px-5 py-2 rounded">
+              Login
+            </button>
+          </Link>
         </div>
       )}
     </header>
