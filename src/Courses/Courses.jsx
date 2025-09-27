@@ -29,7 +29,6 @@ function CoursesPage() {
     }
   };
 
-  // ✅ هنا هنربط البحث
   const handleSearch = (courseName, category) => {
     let results = courses;
 
@@ -46,23 +45,20 @@ function CoursesPage() {
     }
 
     setFiltered(results);
-    setActiveCategory("All"); // بحيث لما يبحث يفضي الاختيار من الكاتيجوري
+    setActiveCategory("All");
   };
 
   return (
     <>
       <HeroSection />
 
-      {/* 👇 قسم البحث */}
       <SearchCourses onSearch={handleSearch} />
 
       <section className="py-16 px-6 max-w-7xl mx-auto">
-        {/* العنوان */}
         <h1 className="text-4xl font-extrabold text-center mb-12 text-red-700">
           Explore Our Courses
         </h1>
 
-        {/* أزرار الفلترة */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((cat) => (
             <button
@@ -80,21 +76,18 @@ function CoursesPage() {
           ))}
         </div>
 
-        {/* الكورسات */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((course) => (
             <div
               key={course.id}
               className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-2"
             >
-              {/* صورة الكورس */}
               <img
                 src={course.image}
                 alt={course.title}
                 className="w-full h-48 object-cover"
               />
 
-              {/* التفاصيل */}
               <div className="p-6 text-left">
                 <span className="inline-block bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded mb-3">
                   {course.category}

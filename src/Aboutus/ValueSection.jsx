@@ -35,7 +35,7 @@ function ValuesSection() {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
             <div className="text-red-600 text-4xl mb-4">🚀</div>
             <h3 className="text-xl font-semibold mb-2">Skill Growth</h3>
             <p className="text-gray-600">

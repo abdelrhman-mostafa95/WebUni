@@ -1,4 +1,3 @@
-import Hero from "../Home/Hero";
 import JoinUs from "../Home/Jouinus";
 import Content from "./Content";
 import HeroSection from "./HeroSection";
@@ -10,7 +9,6 @@ function Aboutus() {
       <HeroSection />
       <ValuesSection />
       <Content />
-
       <JoinUs />
     </>
   );

@@ -19,7 +19,7 @@ function HeroDetails() {
             knowledge in one place. 🚀
           </p>
           <a
-            href="#courses"
+            href="/courses"
             className="bg-white text-red-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition"
           >
             Browse Courses

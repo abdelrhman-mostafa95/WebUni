@@ -16,6 +16,7 @@ import CourseDetails from "./Courses/CourseDetails";
 import Register from "./Auth/Register";
 import Login from "./Auth/Login";
 import { AnimatePresence } from "framer-motion";
+import Dashboard from "./Dashboard/Dashboard";
 
 function MainLayout() {
   return (
@@ -39,6 +40,7 @@ function AnimatedRoutes() {
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/courses/:id" element={<CourseDetails />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Route>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />

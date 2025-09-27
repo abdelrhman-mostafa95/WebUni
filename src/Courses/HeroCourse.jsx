@@ -17,12 +17,7 @@ function HeroSection() {
           from YouTube and beyond, making it easier for you to access knowledge
           in one place. 🚀
         </p>
-        <a
-          href="#courses"
-          className="bg-white text-red-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition"
-        >
-          Browse Courses
-        </a>
+      
       </div>
     </section>
   );

@@ -43,7 +43,7 @@ function Login() {
         className="relative bg-white/90 backdrop-blur-lg shadow-2xl rounded-2xl 
                    p-6 sm:p-10 w-full max-w-sm sm:max-w-md flex flex-col gap-6 border border-gray-200"
       >
-        {/* خلفية دوائر متحركة */}
+        
         <div className="absolute -top-6 -left-6 w-14 h-14 bg-red-700 rounded-full blur-xl opacity-60 animate-pulse"></div>
         <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-red-700 rounded-full blur-xl opacity-60 animate-pulse"></div>
 
@@ -51,10 +51,10 @@ function Login() {
           Welcome Back
         </h2>
         <p className="text-gray-600 text-center text-sm sm:text-base -mt-2">
-          Login to continue 🚀
+          Login to continue 
         </p>
 
-        {/* Email */}
+      
         <div className="flex flex-col gap-2">
           <input
             type="email"
@@ -71,7 +71,7 @@ function Login() {
           )}
         </div>
 
-        {/* Password */}
+        
         <div className="flex flex-col gap-2">
           <input
             type="password"

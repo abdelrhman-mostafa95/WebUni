@@ -52,6 +52,14 @@ function Navbar() {
           >
             Contact
           </NavLink>
+          <NavLink
+            to="/dashboard"
+            className={({ isActive }) =>
+              isActive ? "text-red-700 font-semibold" : "hover:text-red-700"
+            }
+          >
+            Dashboard
+          </NavLink>
         </nav>
 
         <div className="hidden md:block">
