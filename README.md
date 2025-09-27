@@ -1,12 +1,58 @@
-# React + Vite
+# Web Uni - React + Vite Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **modern educational platform** built with **React** and **Vite**, designed to help users explore and track online courses from **YouTube playlists**. It features a full **Dashboard**, course management, and user authentication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Pages Implemented**:
+  - `Home` – Main landing page with featured courses
+  - `About Us` – Information about the platform
+  - `Courses` – Browse all available courses
+  - `Course Details` – Detailed view of each course
+  - `Dashboard` – Personalized user dashboard with course progress
+  - `Register & Login` – User authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dashboard Sections**:
+  - **In Progress** – Courses the user is currently learning
+  - **Completed** – Courses the user has finished
+  - **All Courses** – Complete list of enrolled courses
+  - **Not Started** – Courses the user has not started yet
+
+- **Data Management**:
+  - All user and course data is stored in **localStorage**.
+  - Tracks course progress and enrollment dynamically.
+
+- **Course Content**:
+  - Courses are displayed via **YouTube playlists** for easy access.
+  - Provides direct links to videos for fast learning.
+
+- **Styling**:
+  - Tailwind CSS for modern, responsive design
+  - Hero sections, cards, buttons with hover effects
+  - Light/dark accents with a primary red color scheme
+
+---
+
+## Tech Stack
+
+- **React** (with Hooks)
+- **Vite** for fast development and HMR
+- **Tailwind CSS** for styling
+- **LocalStorage** for storing user and course data
+- Optional: ESLint for code quality
+
+---
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/web-uni.git
+   cd web-uni
+
+
+## Live Demo
+
+Check out the project live here: [Web Uni Platform](https://web-uni-9hot.vercel.app/)
